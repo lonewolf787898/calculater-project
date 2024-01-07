@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    background-image: url('bg.png'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 1.5em;
+    transition: transform 0.1s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
